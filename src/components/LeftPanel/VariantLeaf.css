@@ -1,0 +1,74 @@
+.variant-leaf {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px 6px 36px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.variant-leaf:hover {
+  background: #e3f2fd;
+}
+
+.variant-leaf.selected {
+  background: #2196f3;
+  color: white;
+}
+
+.variant-leaf.preferred {
+  background: #e8f5e9;
+  border-left: 3px solid #4caf50;
+}
+
+.variant-leaf.disliked {
+  background: #ffebee;
+  border-left: 3px solid #f44336;
+  opacity: 0.7;
+}
+
+.variant-leaf.preferred.selected {
+  background: #4caf50;
+  color: white;
+}
+
+.variant-leaf.disliked.selected {
+  background: #f44336;
+  color: white;
+}
+
+.variant-bullet {
+  width: 16px;
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+.variant-leaf.selected .variant-bullet {
+  color: white;
+}
+
+.variant-label {
+  font-size: 12px;
+  color: #546e7a;
+  flex: 1;
+}
+
+.variant-leaf.selected .variant-label {
+  color: white;
+  font-weight: 500;
+}
+
+.variant-dimensions {
+  font-size: 11px;
+  color: #90a4ae;
+  font-family: 'Courier New', monospace;
+  margin-left: 8px;
+}
+
+.variant-leaf.selected .variant-dimensions {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.variant-preference {
+  font-size: 14px;
+  margin-left: 8px;
+}

@@ -1,0 +1,2769 @@
+{
+  "rooms": [
+    {
+      "id": "room-1",
+      "name": "Living/bedroom 1-bed incl. bathroom",
+      "area_target": 30,
+      "area_min": 24,
+      "area_max": 36,
+      "width_range": [
+        3.8,
+        13.7
+      ],
+      "depth_range": [
+        3.8,
+        13.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "client",
+      "quantity": 80,
+      "notes": "Each living group can be flexibly configured with regard to the number of rooms. Each living group has its own front door.",
+      "variants": [
+        {
+          "id": "room-1-var-1",
+          "width": 4.5,
+          "depth": 6.7,
+          "area": 30.2,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-1-var-2",
+          "width": 3.8,
+          "depth": 7.9,
+          "area": 30,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout - maximizes facade exposure"
+        },
+        {
+          "id": "room-1-var-3",
+          "width": 5.6,
+          "depth": 5.4,
+          "area": 30.2,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout - ideal for core access"
+        },
+        {
+          "id": "room-1-var-4",
+          "width": 4,
+          "depth": 7.5,
+          "area": 30,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-1-var-1"
+    },
+    {
+      "id": "room-2",
+      "name": "Shared living room (relaxation + dining incl. kitchen)",
+      "area_target": 65,
+      "area_min": 52,
+      "area_max": 78,
+      "width_range": [
+        5.6,
+        20.2
+      ],
+      "depth_range": [
+        5.6,
+        20.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "client",
+      "quantity": 8,
+      "notes": "Assuming +/- 9m² per resident of the residential group",
+      "variants": [
+        {
+          "id": "room-2-var-1",
+          "width": 6.5,
+          "depth": 10,
+          "area": 65,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout for facade"
+        },
+        {
+          "id": "room-2-var-fallback-km2nd8ar3",
+          "width": 8.1,
+          "depth": 8,
+          "area": 64.8,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-2-var-fallback-bpe2hbfbi",
+          "width": 11.3,
+          "depth": 5.8,
+          "area": 65.5,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Wide layout - maximizes facade exposure"
+        },
+        {
+          "id": "room-2-var-fallback-2pvun8wov",
+          "width": 5.6,
+          "depth": 11.6,
+          "area": 65,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Compact layout - efficient planning"
+        }
+      ],
+      "activeVariantId": "room-2-var-1"
+    },
+    {
+      "id": "room-3",
+      "name": "Family/relaxation room",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "client",
+      "quantity": 8,
+      "notes": "Necessary due to the large number of residents per group",
+      "variants": [
+        {
+          "id": "room-3-var-1",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-3-var-2",
+          "width": 2.7,
+          "depth": 5.6,
+          "area": 15.1,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout - maximizes facade for daylight"
+        },
+        {
+          "id": "room-3-var-3",
+          "width": 4,
+          "depth": 3.8,
+          "area": 15.2,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-3-var-1"
+    },
+    {
+      "id": "room-4",
+      "name": "Storage per residential group",
+      "area_target": 6,
+      "area_min": 4.8,
+      "area_max": 7.2,
+      "width_range": [
+        2.4,
+        6.1
+      ],
+      "depth_range": [
+        2.4,
+        6.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "client",
+      "quantity": 8,
+      "notes": "A storage room within the residential group",
+      "variants": [
+        {
+          "id": "room-4-var-1",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "access_edge": "south",
+          "notes": "Square layout - compact design"
+        },
+        {
+          "id": "room-4-var-fallback-4vaupxjrn",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        }
+      ],
+      "activeVariantId": "room-4-var-1"
+    },
+    {
+      "id": "room-5",
+      "name": "Staff restroom",
+      "area_target": 5,
+      "area_min": 4,
+      "area_max": 6,
+      "width_range": [
+        1.6,
+        5.6
+      ],
+      "depth_range": [
+        1.6,
+        5.6
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "client",
+      "quantity": 8,
+      "notes": "A staff toilet within the residential group",
+      "variants": [
+        {
+          "id": "room-5-var-1",
+          "width": 2.2,
+          "depth": 2.2,
+          "area": 4.8,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-5-var-2",
+          "width": 2.4,
+          "depth": 2,
+          "area": 4.8,
+          "access_edge": "north",
+          "notes": "Wide layout - flexible arrangement"
+        },
+        {
+          "id": "room-5-var-3",
+          "width": 2,
+          "depth": 2.5,
+          "area": 5,
+          "access_edge": "north",
+          "notes": "Compact layout - space-efficient"
+        }
+      ],
+      "activeVariantId": "room-5-var-1"
+    },
+    {
+      "id": "room-6",
+      "name": "Reception area",
+      "area_target": 10,
+      "area_min": 8,
+      "area_max": 12,
+      "width_range": [
+        2.4,
+        7.9
+      ],
+      "depth_range": [
+        2.4,
+        7.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Equipped with a counter and one workstation. Adjacent to the meeting room.",
+      "variants": [
+        {
+          "id": "room-6-var-1",
+          "width": 3.2,
+          "depth": 3.1,
+          "area": 9.9,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-6-var-2",
+          "width": 2.4,
+          "depth": 4.2,
+          "area": 10.1,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Deep/narrow layout - core access"
+        },
+        {
+          "id": "room-6-var-3",
+          "width": 3.5,
+          "depth": 2.9,
+          "area": 10.2,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-6-var-1"
+    },
+    {
+      "id": "room-7",
+      "name": "Waiting room",
+      "area_target": 10,
+      "area_min": 8,
+      "area_max": 12,
+      "width_range": [
+        2.4,
+        7.9
+      ],
+      "depth_range": [
+        2.4,
+        7.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-7-var-1",
+          "width": 3.2,
+          "depth": 3.1,
+          "area": 9.9,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - compact and efficient"
+        },
+        {
+          "id": "room-7-var-2",
+          "width": 2.4,
+          "depth": 4.2,
+          "area": 10.1,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep and narrow - optimized for core access"
+        },
+        {
+          "id": "room-7-var-3",
+          "width": 3.5,
+          "depth": 2.9,
+          "area": 10.2,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option - versatile layout"
+        }
+      ],
+      "activeVariantId": "room-7-var-1"
+    },
+    {
+      "id": "room-8",
+      "name": "Central portioning area",
+      "area_target": 20,
+      "area_min": 16,
+      "area_max": 24,
+      "width_range": [
+        3.1,
+        11.2
+      ],
+      "depth_range": [
+        3.1,
+        11.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-8-var-1",
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-8-var-2",
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "access_edge": "north",
+          "notes": "Wide/shallow layout - suitable for facade"
+        },
+        {
+          "id": "room-8-var-3",
+          "width": 3.1,
+          "depth": 6.5,
+          "area": 20.2,
+          "access_edge": "north",
+          "notes": "Deep/narrow layout - optimized for core access"
+        },
+        {
+          "id": "room-8-var-4",
+          "width": 4.5,
+          "depth": 4.5,
+          "area": 20.3,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-8-var-1"
+    },
+    {
+      "id": "room-9",
+      "name": "Utility room/supply room",
+      "area_target": 16,
+      "area_min": 12.8,
+      "area_max": 19.2,
+      "width_range": [
+        2.8,
+        10
+      ],
+      "depth_range": [
+        2.8,
+        10
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-9-var-1",
+          "width": 4,
+          "depth": 4,
+          "area": 16,
+          "access_edge": "north",
+          "notes": "Square layout - efficient use of space"
+        },
+        {
+          "id": "room-9-var-2",
+          "width": 3.2,
+          "depth": 5,
+          "area": 16,
+          "access_edge": "north",
+          "notes": "Wide/shallow layout for facade access"
+        },
+        {
+          "id": "room-9-var-3",
+          "width": 2.8,
+          "depth": 5.7,
+          "area": 16,
+          "access_edge": "north",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-9-var-4",
+          "width": 3.5,
+          "depth": 4.6,
+          "area": 16.1,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-9-var-1"
+    },
+    {
+      "id": "room-10",
+      "name": "Receiving / Warehouse equipped with freezers",
+      "area_target": 10,
+      "area_min": 8,
+      "area_max": 12,
+      "width_range": [
+        2.4,
+        7.9
+      ],
+      "depth_range": [
+        2.4,
+        7.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-10-var-1",
+          "width": 3.2,
+          "depth": 3.2,
+          "area": 10.2,
+          "access_edge": "north",
+          "notes": "Square layout - efficient use of space"
+        },
+        {
+          "id": "room-10-var-2",
+          "width": 2.4,
+          "depth": 4.2,
+          "area": 10.1,
+          "access_edge": "north",
+          "notes": "Wide/shallow layout for facade access"
+        },
+        {
+          "id": "room-10-var-3",
+          "width": 3.5,
+          "depth": 2.9,
+          "area": 10.2,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-10-var-1"
+    },
+    {
+      "id": "room-11",
+      "name": "Receiving storage of refrigerated food",
+      "area_target": 10,
+      "area_min": 8,
+      "area_max": 12,
+      "width_range": [
+        2.4,
+        7.9
+      ],
+      "depth_range": [
+        2.4,
+        7.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Intended for the preparation of meals for all residents",
+      "variants": [
+        {
+          "id": "room-11-var-1",
+          "width": 3.2,
+          "depth": 3.2,
+          "area": 10.2,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-11-var-2",
+          "width": 3,
+          "depth": 3.5,
+          "area": 10.5,
+          "access_edge": "north",
+          "notes": "Wide/shallow layout for facade access"
+        },
+        {
+          "id": "room-11-var-3",
+          "width": 2.4,
+          "depth": 4.2,
+          "area": 10.1,
+          "access_edge": "east",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-11-var-4",
+          "width": 3.5,
+          "depth": 2.9,
+          "area": 10.2,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-11-var-1"
+    },
+    {
+      "id": "room-12",
+      "name": "Preparation kitchen with dishwasher",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Meals are brought from here to the kitchens of the residential groups",
+      "variants": [
+        {
+          "id": "room-12-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-12-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "access_edge": "north",
+          "notes": "Wide/shallow layout - suitable for facade"
+        },
+        {
+          "id": "room-12-var-3",
+          "width": 3.5,
+          "depth": 3.4,
+          "area": 11.9,
+          "access_edge": "north",
+          "notes": "Deep/narrow layout - for core access"
+        },
+        {
+          "id": "room-12-var-4",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-12-var-1"
+    },
+    {
+      "id": "room-13",
+      "name": "Meeting room / relaxation room",
+      "area_target": 80,
+      "area_min": 64,
+      "area_max": 96,
+      "width_range": [
+        6.3,
+        22.4
+      ],
+      "depth_range": [
+        6.3,
+        22.4
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Meeting room for visitors and clients equipped with a kitchenette - coffee - etc.",
+      "variants": [
+        {
+          "id": "room-13-var-1",
+          "width": 8,
+          "depth": 10,
+          "area": 80,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-13-var-2",
+          "width": 6.3,
+          "depth": 12.7,
+          "area": 80,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout - facade for daylight"
+        },
+        {
+          "id": "room-13-var-3",
+          "width": 10,
+          "depth": 8,
+          "area": 80,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout - easy core access"
+        },
+        {
+          "id": "room-13-var-4",
+          "width": 7.5,
+          "depth": 10.7,
+          "area": 80.3,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-13-var-1"
+    },
+    {
+      "id": "room-14",
+      "name": "Locker/wardrobe area for staff",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "A locker/wardrobe area on every floor",
+      "variants": [
+        {
+          "id": "room-14-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-14-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "access_edge": "north",
+          "notes": "Wide/shallow layout for facade"
+        },
+        {
+          "id": "room-14-var-3",
+          "width": 4,
+          "depth": 3,
+          "area": 12,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-14-var-1"
+    },
+    {
+      "id": "room-15",
+      "name": "Sink room / storage / dirty linen",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "Centrally located per floor",
+      "variants": [
+        {
+          "id": "room-15-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-15-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "access_edge": "north",
+          "notes": "Wide/shallow layout for facade access"
+        },
+        {
+          "id": "room-15-var-3",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "access_edge": "north",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-15-var-4",
+          "width": 3.5,
+          "depth": 3.4,
+          "area": 11.9,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-15-var-1"
+    },
+    {
+      "id": "room-16",
+      "name": "Medicine room incl. storage 2x medicine cart",
+      "area_target": 6,
+      "area_min": 4.8,
+      "area_max": 7.2,
+      "width_range": [
+        2.4,
+        6.1
+      ],
+      "depth_range": [
+        2.4,
+        6.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 4,
+      "notes": "Centrally located per 2 residential groups",
+      "variants": [
+        {
+          "id": "room-16-var-1",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        },
+        {
+          "id": "room-16-var-fallback-ws7npwyzw",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        }
+      ],
+      "activeVariantId": "room-16-var-1"
+    },
+    {
+      "id": "room-17",
+      "name": "Medicine room storage central",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Accessible by pharmacist via access provision",
+      "variants": [
+        {
+          "id": "room-17-var-1",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-17-var-2",
+          "width": 5.5,
+          "depth": 2.7,
+          "area": 14.9,
+          "access_edge": "east",
+          "notes": "Wide/shallow layout - maximizes facade for daylight"
+        },
+        {
+          "id": "room-17-var-3",
+          "width": 2.7,
+          "depth": 5.5,
+          "area": 14.9,
+          "access_edge": "south",
+          "notes": "Deep/narrow layout - facilitates core access"
+        },
+        {
+          "id": "room-17-var-4",
+          "width": 4,
+          "depth": 3.8,
+          "area": 15.2,
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-17-var-1"
+    },
+    {
+      "id": "room-18",
+      "name": "Supply room",
+      "area_target": 10,
+      "area_min": 8,
+      "area_max": 12,
+      "width_range": [
+        2.4,
+        7.9
+      ],
+      "depth_range": [
+        2.4,
+        7.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-18-var-1",
+          "width": 3.2,
+          "depth": 3.2,
+          "area": 10.2,
+          "access_edge": "north",
+          "notes": "Square layout - efficient use of space"
+        },
+        {
+          "id": "room-18-var-2",
+          "width": 2.4,
+          "depth": 4.2,
+          "area": 10.1,
+          "access_edge": "north",
+          "notes": "Wide/shallow layout - suitable for facade"
+        },
+        {
+          "id": "room-18-var-3",
+          "width": 3.5,
+          "depth": 2.9,
+          "area": 10.2,
+          "access_edge": "east",
+          "notes": "Deep/narrow layout - easy access to core areas"
+        },
+        {
+          "id": "room-18-var-4",
+          "width": 2.5,
+          "depth": 4,
+          "area": 10,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-18-var-1"
+    },
+    {
+      "id": "room-19",
+      "name": "Clean workspace / sterile storage / nursing supplies",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "Centrally located per floor",
+      "variants": [
+        {
+          "id": "room-19-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-19-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "access_edge": "north",
+          "notes": "Wide/shallow layout for facade"
+        },
+        {
+          "id": "room-19-var-3",
+          "width": 3.5,
+          "depth": 3.4,
+          "area": 11.9,
+          "access_edge": "north",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-19-var-4",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-19-var-1"
+    },
+    {
+      "id": "room-20",
+      "name": "Storage of non-sterile disposables",
+      "area_target": 2,
+      "area_min": 1.6,
+      "area_max": 2.4,
+      "width_range": [
+        1,
+        3.5
+      ],
+      "depth_range": [
+        1,
+        3.5
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-20-var-1",
+          "width": 1.4,
+          "depth": 1.4,
+          "area": 2,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-20-var-2",
+          "width": 1.5,
+          "depth": 1.3,
+          "area": 2,
+          "access_edge": "north",
+          "notes": "Wide layout - flexible arrangement"
+        },
+        {
+          "id": "room-20-var-3",
+          "width": 1.3,
+          "depth": 1.6,
+          "area": 2.1,
+          "access_edge": "north",
+          "notes": "Compact layout - space-efficient"
+        }
+      ],
+      "activeVariantId": "room-20-var-1"
+    },
+    {
+      "id": "room-21",
+      "name": "Storage of clean linen",
+      "area_target": 6,
+      "area_min": 4.8,
+      "area_max": 7.2,
+      "width_range": [
+        2.4,
+        6.1
+      ],
+      "depth_range": [
+        2.4,
+        6.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-21-var-1",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "access_edge": "west",
+          "notes": "Square layout - compact design"
+        },
+        {
+          "id": "room-21-var-2",
+          "width": 2.5,
+          "depth": 2.4,
+          "area": 6,
+          "access_edge": "south",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-21-var-1"
+    },
+    {
+      "id": "room-22",
+      "name": "Miva toilet visitors",
+      "area_target": 5,
+      "area_min": 4,
+      "area_max": 6,
+      "width_range": [
+        1.6,
+        5.6
+      ],
+      "depth_range": [
+        1.6,
+        5.6
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-22-var-1",
+          "width": 2.2,
+          "depth": 2.2,
+          "area": 4.8,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-22-var-2",
+          "width": 2.4,
+          "depth": 2,
+          "area": 4.8,
+          "access_edge": "north",
+          "notes": "Wide layout - flexible arrangement"
+        },
+        {
+          "id": "room-22-var-3",
+          "width": 2,
+          "depth": 2.5,
+          "area": 5,
+          "access_edge": "north",
+          "notes": "Compact layout - space-efficient"
+        }
+      ],
+      "activeVariantId": "room-22-var-1"
+    },
+    {
+      "id": "room-23",
+      "name": "Toilet visitors",
+      "area_target": 5,
+      "area_min": 4,
+      "area_max": 6,
+      "width_range": [
+        1.6,
+        5.6
+      ],
+      "depth_range": [
+        1.6,
+        5.6
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-23-var-1",
+          "width": 2.2,
+          "depth": 2.2,
+          "area": 4.8,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-23-var-2",
+          "width": 2.4,
+          "depth": 2,
+          "area": 4.8,
+          "access_edge": "north",
+          "notes": "Wide layout - flexible arrangement"
+        },
+        {
+          "id": "room-23-var-3",
+          "width": 2,
+          "depth": 2.5,
+          "area": 5,
+          "access_edge": "north",
+          "notes": "Compact layout - space-efficient"
+        }
+      ],
+      "activeVariantId": "room-23-var-1"
+    },
+    {
+      "id": "room-24",
+      "name": "Short-term waste space",
+      "area_target": 2,
+      "area_min": 1.6,
+      "area_max": 2.4,
+      "width_range": [
+        1,
+        3.5
+      ],
+      "depth_range": [
+        1,
+        3.5
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "1x per floor",
+      "variants": [
+        {
+          "id": "room-24-var-1",
+          "width": 1.4,
+          "depth": 1.4,
+          "area": 2,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-24-var-2",
+          "width": 1.5,
+          "depth": 1.3,
+          "area": 2,
+          "access_edge": "north",
+          "notes": "Wide layout - flexible arrangement"
+        },
+        {
+          "id": "room-24-var-3",
+          "width": 1.3,
+          "depth": 1.6,
+          "area": 2.1,
+          "access_edge": "north",
+          "notes": "Compact layout - space-efficient"
+        }
+      ],
+      "activeVariantId": "room-24-var-1"
+    },
+    {
+      "id": "room-25",
+      "name": "Charging station for electric wheelchairs",
+      "area_target": 4,
+      "area_min": 3.2,
+      "area_max": 4.8,
+      "width_range": [
+        1.5,
+        5
+      ],
+      "depth_range": [
+        1.5,
+        5
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "1x per floor",
+      "variants": [
+        {
+          "id": "room-25-var-1",
+          "width": 2,
+          "depth": 2,
+          "area": 4,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-25-var-2",
+          "width": 2.2,
+          "depth": 1.8,
+          "area": 4,
+          "access_edge": "north",
+          "notes": "Wide layout - flexible arrangement"
+        },
+        {
+          "id": "room-25-var-3",
+          "width": 1.8,
+          "depth": 2.2,
+          "area": 4,
+          "access_edge": "north",
+          "notes": "Compact layout - space-efficient"
+        }
+      ],
+      "activeVariantId": "room-25-var-1"
+    },
+    {
+      "id": "room-26",
+      "name": "Patch cabinet space",
+      "area_target": 7,
+      "area_min": 5.6,
+      "area_max": 8.4,
+      "width_range": [
+        2.4,
+        6.6
+      ],
+      "depth_range": [
+        2.4,
+        6.6
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Expected to need one patch cabinet in the center of the building. Distance to component: max. 90m.",
+      "variants": [
+        {
+          "id": "room-26-var-1",
+          "width": 2.8,
+          "depth": 2.5,
+          "area": 7,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-26-var-2",
+          "width": 2.5,
+          "depth": 2.8,
+          "area": 7,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-26-var-1"
+    },
+    {
+      "id": "room-27",
+      "name": "Technical rooms such as meter cupboards, technology, hydrophore, etc.",
+      "area_target": 8,
+      "area_min": 6.4,
+      "area_max": 9.6,
+      "width_range": [
+        2.4,
+        7.1
+      ],
+      "depth_range": [
+        2.4,
+        7.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 3,
+      "notes": "1x per floor | m² is an assumption",
+      "variants": [
+        {
+          "id": "room-27-var-1",
+          "width": 2.7,
+          "depth": 3,
+          "area": 8.1,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-27-var-2",
+          "width": 2.4,
+          "depth": 3.3,
+          "area": 7.9,
+          "access_edge": "north",
+          "notes": "Deep/narrow layout - for core access"
+        },
+        {
+          "id": "room-27-var-3",
+          "width": 3,
+          "depth": 2.7,
+          "area": 8.1,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-27-var-1"
+    },
+    {
+      "id": "room-28",
+      "name": "Office manager care & business operations",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-28-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-28-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout - facade orientation"
+        },
+        {
+          "id": "room-28-var-3",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout - core access"
+        },
+        {
+          "id": "room-28-var-4",
+          "width": 3.5,
+          "depth": 3.4,
+          "area": 11.9,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-28-var-1"
+    },
+    {
+      "id": "room-29",
+      "name": "Office space location support",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "Adjacent to reception area (2x workstations)",
+      "variants": [
+        {
+          "id": "room-29-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-29-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout - facade orientation"
+        },
+        {
+          "id": "room-29-var-3",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Deep/narrow layout - core access"
+        },
+        {
+          "id": "room-29-var-4",
+          "width": 2.7,
+          "depth": 4.4,
+          "area": 11.9,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-29-var-1"
+    },
+    {
+      "id": "room-30",
+      "name": "Office team leaders",
+      "area_target": 8,
+      "area_min": 6.4,
+      "area_max": 9.6,
+      "width_range": [
+        2.4,
+        7.1
+      ],
+      "depth_range": [
+        2.4,
+        7.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 3,
+      "notes": "Centrally located per floor",
+      "variants": [
+        {
+          "id": "room-30-var-1",
+          "width": 3.2,
+          "depth": 2.5,
+          "area": 8,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-30-var-2",
+          "width": 2.8,
+          "depth": 2.9,
+          "area": 8.1,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-30-var-1"
+    },
+    {
+      "id": "room-31",
+      "name": "Home care team office",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-31-var-1",
+          "width": 3,
+          "depth": 5,
+          "area": 15,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-31-var-2",
+          "width": 2.7,
+          "depth": 5.6,
+          "area": 15.1,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout for facade"
+        },
+        {
+          "id": "room-31-var-3",
+          "width": 3.6,
+          "depth": 4.2,
+          "area": 15.1,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-31-var-4",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-31-var-1"
+    },
+    {
+      "id": "room-32",
+      "name": "Flex offices e.g. Ciz, scheduler, coach, etc.",
+      "area_target": 25,
+      "area_min": 20,
+      "area_max": 30,
+      "width_range": [
+        3.5,
+        12.5
+      ],
+      "depth_range": [
+        3.5,
+        12.5
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-32-var-1",
+          "width": 5,
+          "depth": 5,
+          "area": 25,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-32-var-2",
+          "width": 3.5,
+          "depth": 7.1,
+          "area": 24.8,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout for facade access"
+        },
+        {
+          "id": "room-32-var-3",
+          "width": 4,
+          "depth": 6.3,
+          "area": 25.2,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-32-var-4",
+          "width": 4.8,
+          "depth": 5.2,
+          "area": 25,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-32-var-1"
+    },
+    {
+      "id": "room-33",
+      "name": "Meeting room 1",
+      "area_target": 30,
+      "area_min": 24,
+      "area_max": 36,
+      "width_range": [
+        3.8,
+        13.7
+      ],
+      "depth_range": [
+        3.8,
+        13.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "Our advice remains to provide a sliding wall.",
+      "variants": [
+        {
+          "id": "room-33-var-1",
+          "width": 4.5,
+          "depth": 6.7,
+          "area": 30.2,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-33-var-2",
+          "width": 3.8,
+          "depth": 9.2,
+          "area": 35,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout for facade access"
+        },
+        {
+          "id": "room-33-var-3",
+          "width": 6.7,
+          "depth": 4.5,
+          "area": 30.2,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-33-var-4",
+          "width": 5.5,
+          "depth": 5.5,
+          "area": 30.3,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-33-var-1"
+    },
+    {
+      "id": "room-34",
+      "name": "Meeting room 2",
+      "area_target": 30,
+      "area_min": 24,
+      "area_max": 36,
+      "width_range": [
+        3.8,
+        13.7
+      ],
+      "depth_range": [
+        3.8,
+        13.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-34-var-1",
+          "width": 5,
+          "depth": 6,
+          "area": 30,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-34-var-2",
+          "width": 4,
+          "depth": 7.5,
+          "area": 30,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout - facade oriented"
+        },
+        {
+          "id": "room-34-var-3",
+          "width": 3.8,
+          "depth": 7.9,
+          "area": 30,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout - core access"
+        },
+        {
+          "id": "room-34-var-4",
+          "width": 4.5,
+          "depth": 6.7,
+          "area": 30.2,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-34-var-1"
+    },
+    {
+      "id": "room-35",
+      "name": "Office / workplace caretaker",
+      "area_target": 20,
+      "area_min": 16,
+      "area_max": 24,
+      "width_range": [
+        3.1,
+        11.2
+      ],
+      "depth_range": [
+        3.1,
+        11.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-35-var-1",
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-35-var-2",
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow - for facade and daylight"
+        },
+        {
+          "id": "room-35-var-3",
+          "width": 4.5,
+          "depth": 4.5,
+          "area": 20.3,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-35-var-1"
+    },
+    {
+      "id": "room-36",
+      "name": "Physiotherapy consultation/treatment room",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 5,
+      "notes": "This is a combination of care and cure; efficiency must be considered. 1. The space must be connected to the exercise room.",
+      "variants": [
+        {
+          "id": "room-36-var-1",
+          "width": 3,
+          "depth": 5,
+          "area": 15,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-36-var-2",
+          "width": 2.7,
+          "depth": 5.6,
+          "area": 15.1,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout for facade"
+        },
+        {
+          "id": "room-36-var-3",
+          "width": 3.6,
+          "depth": 4.2,
+          "area": 15.1,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-36-var-4",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-36-var-1"
+    },
+    {
+      "id": "room-37",
+      "name": "Treatment room/exercise room for physiotherapy for children/low-stimulus",
+      "area_target": 20,
+      "area_min": 16,
+      "area_max": 24,
+      "width_range": [
+        3.1,
+        11.2
+      ],
+      "depth_range": [
+        3.1,
+        11.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-37-var-1",
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-37-var-2",
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout for facade"
+        },
+        {
+          "id": "room-37-var-3",
+          "width": 3.1,
+          "depth": 6.5,
+          "area": 20.2,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-37-var-4",
+          "width": 4.5,
+          "depth": 4.5,
+          "area": 20.3,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-37-var-1"
+    },
+    {
+      "id": "room-38",
+      "name": "Speech therapy / dietetics office",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "It needs a height-adjustable table, three chairs, and a cabinet. Sufficient space for a wheelchair.",
+      "variants": [
+        {
+          "id": "room-38-var-1",
+          "width": 3,
+          "depth": 5,
+          "area": 15,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-38-var-2",
+          "width": 2.7,
+          "depth": 5.6,
+          "area": 15.1,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout - facade for daylight"
+        },
+        {
+          "id": "room-38-var-3",
+          "width": 3.6,
+          "depth": 4.2,
+          "area": 15.1,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Deep/narrow layout - core access"
+        },
+        {
+          "id": "room-38-var-4",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-38-var-1"
+    },
+    {
+      "id": "room-39",
+      "name": "Doctors' offices",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 3,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-39-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-39-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Wide/shallow layout for facade"
+        },
+        {
+          "id": "room-39-var-3",
+          "width": 3.5,
+          "depth": 3.4,
+          "area": 11.9,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-39-var-4",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-39-var-1"
+    },
+    {
+      "id": "room-40",
+      "name": "Office transfer nurse",
+      "area_target": 20,
+      "area_min": 16,
+      "area_max": 24,
+      "width_range": [
+        3.1,
+        11.2
+      ],
+      "depth_range": [
+        3.1,
+        11.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-40-var-1",
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-40-var-2",
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Wide/shallow layout for facade"
+        },
+        {
+          "id": "room-40-var-3",
+          "width": 3.1,
+          "depth": 6.5,
+          "area": 20.2,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-40-var-4",
+          "width": 4.5,
+          "depth": 4.5,
+          "area": 20.3,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-40-var-1"
+    },
+    {
+      "id": "room-41",
+      "name": "Physiotherapy and occupational therapy office including kitchen",
+      "area_target": 25,
+      "area_min": 20,
+      "area_max": 30,
+      "width_range": [
+        3.5,
+        12.5
+      ],
+      "depth_range": [
+        3.5,
+        12.5
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-41-var-1",
+          "width": 5,
+          "depth": 5,
+          "area": 25,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-41-var-2",
+          "width": 6,
+          "depth": 4.2,
+          "area": 25.2,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout for facade"
+        },
+        {
+          "id": "room-41-var-3",
+          "width": 3.5,
+          "depth": 7.1,
+          "area": 24.8,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-41-var-4",
+          "width": 4,
+          "depth": 6.3,
+          "area": 25.2,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-41-var-1"
+    },
+    {
+      "id": "room-42",
+      "name": "Occupational therapy office",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "It needs a height-adjustable table, three chairs, and a cabinet. Sufficient space for a wheelchair.",
+      "variants": [
+        {
+          "id": "room-42-var-1",
+          "width": 3,
+          "depth": 5,
+          "area": 15,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-42-var-2",
+          "width": 2.7,
+          "depth": 6,
+          "area": 16.2,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow for facade"
+        },
+        {
+          "id": "room-42-var-3",
+          "width": 4.5,
+          "depth": 3.3,
+          "area": 14.9,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Deep/narrow for core access"
+        },
+        {
+          "id": "room-42-var-4",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-42-var-1"
+    },
+    {
+      "id": "room-43",
+      "name": "Exercise room 2 physiotherapy",
+      "area_target": 80,
+      "area_min": 64,
+      "area_max": 96,
+      "width_range": [
+        6.3,
+        22.4
+      ],
+      "depth_range": [
+        6.3,
+        22.4
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "Storage accessible from the practice room",
+      "variants": [
+        {
+          "id": "room-43-var-1",
+          "width": 8,
+          "depth": 10,
+          "area": 80,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-43-var-2",
+          "width": 6.3,
+          "depth": 12.7,
+          "area": 80,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout for facade"
+        },
+        {
+          "id": "room-43-var-3",
+          "width": 10,
+          "depth": 8,
+          "area": 80,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-43-var-4",
+          "width": 7.5,
+          "depth": 10.7,
+          "area": 80.3,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-43-var-1"
+    },
+    {
+      "id": "room-44",
+      "name": "Storage Physio",
+      "area_target": 20,
+      "area_min": 16,
+      "area_max": 24,
+      "width_range": [
+        3.1,
+        11.2
+      ],
+      "depth_range": [
+        3.1,
+        11.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-44-var-1",
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-44-var-2",
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "access_edge": "north",
+          "notes": "Wide/shallow layout - suitable for facade"
+        },
+        {
+          "id": "room-44-var-3",
+          "width": 3.1,
+          "depth": 6.5,
+          "area": 20.2,
+          "access_edge": "north",
+          "notes": "Deep/narrow layout - for core access"
+        },
+        {
+          "id": "room-44-var-4",
+          "width": 4.5,
+          "depth": 4.5,
+          "area": 20.3,
+          "access_edge": "north",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-44-var-1"
+    },
+    {
+      "id": "room-45",
+      "name": "Charging electric wheelchairs",
+      "area_target": 6,
+      "area_min": 4.8,
+      "area_max": 7.2,
+      "width_range": [
+        2.4,
+        6.1
+      ],
+      "depth_range": [
+        2.4,
+        6.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "1x per layer",
+      "variants": [
+        {
+          "id": "room-45-var-1",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "access_edge": "south",
+          "notes": "Square layout - compact and efficient"
+        },
+        {
+          "id": "room-45-var-fallback-4igw8oinb",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        }
+      ],
+      "activeVariantId": "room-45-var-1"
+    },
+    {
+      "id": "room-46",
+      "name": "MIVA shower",
+      "area_target": 7,
+      "area_min": 5.6,
+      "area_max": 8.4,
+      "width_range": [
+        2.4,
+        6.6
+      ],
+      "depth_range": [
+        2.4,
+        6.6
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "1 Miva and 1 normal shower.",
+      "variants": [
+        {
+          "id": "room-46-var-1",
+          "width": 2.4,
+          "depth": 3,
+          "area": 7.2,
+          "access_edge": "west",
+          "notes": "Deep/narrow layout - core access"
+        },
+        {
+          "id": "room-46-var-fallback-c38mymcaw",
+          "width": 2.6,
+          "depth": 2.7,
+          "area": 7,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        }
+      ],
+      "activeVariantId": "room-46-var-1"
+    },
+    {
+      "id": "room-47",
+      "name": "Shower",
+      "area_target": 3,
+      "area_min": 2.4,
+      "area_max": 3.6,
+      "width_range": [
+        1.5,
+        4.3
+      ],
+      "depth_range": [
+        1.5,
+        4.3
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": [
+        {
+          "id": "room-47-var-1",
+          "width": 1.7,
+          "depth": 1.7,
+          "area": 2.9,
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-47-var-2",
+          "width": 1.9,
+          "depth": 1.6,
+          "area": 3,
+          "access_edge": "north",
+          "notes": "Wide layout - flexible arrangement"
+        },
+        {
+          "id": "room-47-var-3",
+          "width": 1.5,
+          "depth": 1.9,
+          "area": 2.8,
+          "access_edge": "north",
+          "notes": "Compact layout - space-efficient"
+        }
+      ],
+      "activeVariantId": "room-47-var-1"
+    },
+    {
+      "id": "room-48",
+      "name": "Waiting/general",
+      "area_target": 70,
+      "area_min": 56,
+      "area_max": 84,
+      "width_range": [
+        5.9,
+        20.9
+      ],
+      "depth_range": [
+        5.9,
+        20.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "Could be smaller if the meeting room (25) is nearby. Combination waiting room Recovery clinic",
+      "variants": [
+        {
+          "id": "room-48-var-1",
+          "width": 6.6,
+          "depth": 10.6,
+          "area": 70,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-48-var-2",
+          "width": 8.5,
+          "depth": 8.2,
+          "area": 69.7,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout - facade orientation"
+        },
+        {
+          "id": "room-48-var-3",
+          "width": 5.9,
+          "depth": 11.9,
+          "area": 70.2,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Deep/narrow layout - core access"
+        },
+        {
+          "id": "room-48-var-4",
+          "width": 7.3,
+          "depth": 9.6,
+          "area": 70.1,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-48-var-1"
+    },
+    {
+      "id": "room-49",
+      "name": "Workrooms / open-plan offices",
+      "area_target": 30,
+      "area_min": 24,
+      "area_max": 36,
+      "width_range": [
+        3.8,
+        13.7
+      ],
+      "depth_range": [
+        3.8,
+        13.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "12 workstations/flexible workstations (including physiotherapy clinic)",
+      "variants": [
+        {
+          "id": "room-49-var-1",
+          "width": 5,
+          "depth": 6,
+          "area": 30,
+          "facade_edge": "south",
+          "access_edge": "north",
+          "notes": "Square layout - efficient circulation"
+        },
+        {
+          "id": "room-49-var-2",
+          "width": 6,
+          "depth": 5,
+          "area": 30,
+          "facade_edge": "west",
+          "access_edge": "east",
+          "notes": "Wide/shallow layout for facade access"
+        },
+        {
+          "id": "room-49-var-3",
+          "width": 3.8,
+          "depth": 7.9,
+          "area": 30,
+          "facade_edge": "north",
+          "access_edge": "south",
+          "notes": "Deep/narrow layout for core access"
+        },
+        {
+          "id": "room-49-var-4",
+          "width": 4.5,
+          "depth": 6.7,
+          "area": 30.2,
+          "facade_edge": "east",
+          "access_edge": "west",
+          "notes": "Balanced mid-option"
+        }
+      ],
+      "activeVariantId": "room-49-var-1"
+    }
+  ],
+  "metadata": {
+    "parsedAt": "2026-01-20T13:05:00.401Z",
+    "totalRooms": 184,
+    "totalArea": 4257,
+    "variantsGeneratedAt": "2026-01-20T13:25:39.285Z",
+    "totalVariants": 168,
+    "smallRoomsFixedAt": "2026-01-20T15:01:57.856Z"
+  }
+}

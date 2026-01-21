@@ -1,0 +1,1534 @@
+{
+  "timestamp": "2026-01-20T15:16:57.274Z",
+  "stats": {
+    "totalRooms": 49,
+    "totalVariants": 168,
+    "reviewed": 1,
+    "preferred": 1,
+    "disliked": 0
+  },
+  "variantPreferences": {
+    "room-1-var-1": "preferred"
+  },
+  "roomSummary": [
+    {
+      "id": "room-1",
+      "name": "Living/bedroom 1-bed incl. bathroom",
+      "quantity": 80,
+      "variants": [
+        {
+          "id": "room-1-var-1",
+          "width": 4.5,
+          "depth": 6.7,
+          "area": 30.2,
+          "preference": "preferred"
+        },
+        {
+          "id": "room-1-var-2",
+          "width": 3.8,
+          "depth": 7.9,
+          "area": 30,
+          "preference": null
+        },
+        {
+          "id": "room-1-var-3",
+          "width": 5.6,
+          "depth": 5.4,
+          "area": 30.2,
+          "preference": null
+        },
+        {
+          "id": "room-1-var-4",
+          "width": 4,
+          "depth": 7.5,
+          "area": 30,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-2",
+      "name": "Shared living room (relaxation + dining incl. kitchen)",
+      "quantity": 8,
+      "variants": [
+        {
+          "id": "room-2-var-1",
+          "width": 6.5,
+          "depth": 10,
+          "area": 65,
+          "preference": null
+        },
+        {
+          "id": "room-2-var-fallback-km2nd8ar3",
+          "width": 8.1,
+          "depth": 8,
+          "area": 64.8,
+          "preference": null
+        },
+        {
+          "id": "room-2-var-fallback-bpe2hbfbi",
+          "width": 11.3,
+          "depth": 5.8,
+          "area": 65.5,
+          "preference": null
+        },
+        {
+          "id": "room-2-var-fallback-2pvun8wov",
+          "width": 5.6,
+          "depth": 11.6,
+          "area": 65,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-3",
+      "name": "Family/relaxation room",
+      "quantity": 8,
+      "variants": [
+        {
+          "id": "room-3-var-1",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "preference": null
+        },
+        {
+          "id": "room-3-var-2",
+          "width": 2.7,
+          "depth": 5.6,
+          "area": 15.1,
+          "preference": null
+        },
+        {
+          "id": "room-3-var-3",
+          "width": 4,
+          "depth": 3.8,
+          "area": 15.2,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-4",
+      "name": "Storage per residential group",
+      "quantity": 8,
+      "variants": [
+        {
+          "id": "room-4-var-1",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "preference": null
+        },
+        {
+          "id": "room-4-var-fallback-4vaupxjrn",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-5",
+      "name": "Staff restroom",
+      "quantity": 8,
+      "variants": [
+        {
+          "id": "room-5-var-1",
+          "width": 2.2,
+          "depth": 2.2,
+          "area": 4.8,
+          "preference": null
+        },
+        {
+          "id": "room-5-var-2",
+          "width": 2.4,
+          "depth": 2,
+          "area": 4.8,
+          "preference": null
+        },
+        {
+          "id": "room-5-var-3",
+          "width": 2,
+          "depth": 2.5,
+          "area": 5,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-6",
+      "name": "Reception area",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-6-var-1",
+          "width": 3.2,
+          "depth": 3.1,
+          "area": 9.9,
+          "preference": null
+        },
+        {
+          "id": "room-6-var-2",
+          "width": 2.4,
+          "depth": 4.2,
+          "area": 10.1,
+          "preference": null
+        },
+        {
+          "id": "room-6-var-3",
+          "width": 3.5,
+          "depth": 2.9,
+          "area": 10.2,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-7",
+      "name": "Waiting room",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-7-var-1",
+          "width": 3.2,
+          "depth": 3.1,
+          "area": 9.9,
+          "preference": null
+        },
+        {
+          "id": "room-7-var-2",
+          "width": 2.4,
+          "depth": 4.2,
+          "area": 10.1,
+          "preference": null
+        },
+        {
+          "id": "room-7-var-3",
+          "width": 3.5,
+          "depth": 2.9,
+          "area": 10.2,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-8",
+      "name": "Central portioning area",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-8-var-1",
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "preference": null
+        },
+        {
+          "id": "room-8-var-2",
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "preference": null
+        },
+        {
+          "id": "room-8-var-3",
+          "width": 3.1,
+          "depth": 6.5,
+          "area": 20.2,
+          "preference": null
+        },
+        {
+          "id": "room-8-var-4",
+          "width": 4.5,
+          "depth": 4.5,
+          "area": 20.3,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-9",
+      "name": "Utility room/supply room",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-9-var-1",
+          "width": 4,
+          "depth": 4,
+          "area": 16,
+          "preference": null
+        },
+        {
+          "id": "room-9-var-2",
+          "width": 3.2,
+          "depth": 5,
+          "area": 16,
+          "preference": null
+        },
+        {
+          "id": "room-9-var-3",
+          "width": 2.8,
+          "depth": 5.7,
+          "area": 16,
+          "preference": null
+        },
+        {
+          "id": "room-9-var-4",
+          "width": 3.5,
+          "depth": 4.6,
+          "area": 16.1,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-10",
+      "name": "Receiving / Warehouse equipped with freezers",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-10-var-1",
+          "width": 3.2,
+          "depth": 3.2,
+          "area": 10.2,
+          "preference": null
+        },
+        {
+          "id": "room-10-var-2",
+          "width": 2.4,
+          "depth": 4.2,
+          "area": 10.1,
+          "preference": null
+        },
+        {
+          "id": "room-10-var-3",
+          "width": 3.5,
+          "depth": 2.9,
+          "area": 10.2,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-11",
+      "name": "Receiving storage of refrigerated food",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-11-var-1",
+          "width": 3.2,
+          "depth": 3.2,
+          "area": 10.2,
+          "preference": null
+        },
+        {
+          "id": "room-11-var-2",
+          "width": 3,
+          "depth": 3.5,
+          "area": 10.5,
+          "preference": null
+        },
+        {
+          "id": "room-11-var-3",
+          "width": 2.4,
+          "depth": 4.2,
+          "area": 10.1,
+          "preference": null
+        },
+        {
+          "id": "room-11-var-4",
+          "width": 3.5,
+          "depth": 2.9,
+          "area": 10.2,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-12",
+      "name": "Preparation kitchen with dishwasher",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-12-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-12-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-12-var-3",
+          "width": 3.5,
+          "depth": 3.4,
+          "area": 11.9,
+          "preference": null
+        },
+        {
+          "id": "room-12-var-4",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-13",
+      "name": "Meeting room / relaxation room",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-13-var-1",
+          "width": 8,
+          "depth": 10,
+          "area": 80,
+          "preference": null
+        },
+        {
+          "id": "room-13-var-2",
+          "width": 6.3,
+          "depth": 12.7,
+          "area": 80,
+          "preference": null
+        },
+        {
+          "id": "room-13-var-3",
+          "width": 10,
+          "depth": 8,
+          "area": 80,
+          "preference": null
+        },
+        {
+          "id": "room-13-var-4",
+          "width": 7.5,
+          "depth": 10.7,
+          "area": 80.3,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-14",
+      "name": "Locker/wardrobe area for staff",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-14-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-14-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-14-var-3",
+          "width": 4,
+          "depth": 3,
+          "area": 12,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-15",
+      "name": "Sink room / storage / dirty linen",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-15-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-15-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-15-var-3",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "preference": null
+        },
+        {
+          "id": "room-15-var-4",
+          "width": 3.5,
+          "depth": 3.4,
+          "area": 11.9,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-16",
+      "name": "Medicine room incl. storage 2x medicine cart",
+      "quantity": 4,
+      "variants": [
+        {
+          "id": "room-16-var-1",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "preference": null
+        },
+        {
+          "id": "room-16-var-fallback-ws7npwyzw",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-17",
+      "name": "Medicine room storage central",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-17-var-1",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "preference": null
+        },
+        {
+          "id": "room-17-var-2",
+          "width": 5.5,
+          "depth": 2.7,
+          "area": 14.9,
+          "preference": null
+        },
+        {
+          "id": "room-17-var-3",
+          "width": 2.7,
+          "depth": 5.5,
+          "area": 14.9,
+          "preference": null
+        },
+        {
+          "id": "room-17-var-4",
+          "width": 4,
+          "depth": 3.8,
+          "area": 15.2,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-18",
+      "name": "Supply room",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-18-var-1",
+          "width": 3.2,
+          "depth": 3.2,
+          "area": 10.2,
+          "preference": null
+        },
+        {
+          "id": "room-18-var-2",
+          "width": 2.4,
+          "depth": 4.2,
+          "area": 10.1,
+          "preference": null
+        },
+        {
+          "id": "room-18-var-3",
+          "width": 3.5,
+          "depth": 2.9,
+          "area": 10.2,
+          "preference": null
+        },
+        {
+          "id": "room-18-var-4",
+          "width": 2.5,
+          "depth": 4,
+          "area": 10,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-19",
+      "name": "Clean workspace / sterile storage / nursing supplies",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-19-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-19-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-19-var-3",
+          "width": 3.5,
+          "depth": 3.4,
+          "area": 11.9,
+          "preference": null
+        },
+        {
+          "id": "room-19-var-4",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-20",
+      "name": "Storage of non-sterile disposables",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-20-var-1",
+          "width": 1.4,
+          "depth": 1.4,
+          "area": 2,
+          "preference": null
+        },
+        {
+          "id": "room-20-var-2",
+          "width": 1.5,
+          "depth": 1.3,
+          "area": 2,
+          "preference": null
+        },
+        {
+          "id": "room-20-var-3",
+          "width": 1.3,
+          "depth": 1.6,
+          "area": 2.1,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-21",
+      "name": "Storage of clean linen",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-21-var-1",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "preference": null
+        },
+        {
+          "id": "room-21-var-2",
+          "width": 2.5,
+          "depth": 2.4,
+          "area": 6,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-22",
+      "name": "Miva toilet visitors",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-22-var-1",
+          "width": 2.2,
+          "depth": 2.2,
+          "area": 4.8,
+          "preference": null
+        },
+        {
+          "id": "room-22-var-2",
+          "width": 2.4,
+          "depth": 2,
+          "area": 4.8,
+          "preference": null
+        },
+        {
+          "id": "room-22-var-3",
+          "width": 2,
+          "depth": 2.5,
+          "area": 5,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-23",
+      "name": "Toilet visitors",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-23-var-1",
+          "width": 2.2,
+          "depth": 2.2,
+          "area": 4.8,
+          "preference": null
+        },
+        {
+          "id": "room-23-var-2",
+          "width": 2.4,
+          "depth": 2,
+          "area": 4.8,
+          "preference": null
+        },
+        {
+          "id": "room-23-var-3",
+          "width": 2,
+          "depth": 2.5,
+          "area": 5,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-24",
+      "name": "Short-term waste space",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-24-var-1",
+          "width": 1.4,
+          "depth": 1.4,
+          "area": 2,
+          "preference": null
+        },
+        {
+          "id": "room-24-var-2",
+          "width": 1.5,
+          "depth": 1.3,
+          "area": 2,
+          "preference": null
+        },
+        {
+          "id": "room-24-var-3",
+          "width": 1.3,
+          "depth": 1.6,
+          "area": 2.1,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-25",
+      "name": "Charging station for electric wheelchairs",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-25-var-1",
+          "width": 2,
+          "depth": 2,
+          "area": 4,
+          "preference": null
+        },
+        {
+          "id": "room-25-var-2",
+          "width": 2.2,
+          "depth": 1.8,
+          "area": 4,
+          "preference": null
+        },
+        {
+          "id": "room-25-var-3",
+          "width": 1.8,
+          "depth": 2.2,
+          "area": 4,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-26",
+      "name": "Patch cabinet space",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-26-var-1",
+          "width": 2.8,
+          "depth": 2.5,
+          "area": 7,
+          "preference": null
+        },
+        {
+          "id": "room-26-var-2",
+          "width": 2.5,
+          "depth": 2.8,
+          "area": 7,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-27",
+      "name": "Technical rooms such as meter cupboards, technology, hydrophore, etc.",
+      "quantity": 3,
+      "variants": [
+        {
+          "id": "room-27-var-1",
+          "width": 2.7,
+          "depth": 3,
+          "area": 8.1,
+          "preference": null
+        },
+        {
+          "id": "room-27-var-2",
+          "width": 2.4,
+          "depth": 3.3,
+          "area": 7.9,
+          "preference": null
+        },
+        {
+          "id": "room-27-var-3",
+          "width": 3,
+          "depth": 2.7,
+          "area": 8.1,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-28",
+      "name": "Office manager care & business operations",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-28-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-28-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-28-var-3",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "preference": null
+        },
+        {
+          "id": "room-28-var-4",
+          "width": 3.5,
+          "depth": 3.4,
+          "area": 11.9,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-29",
+      "name": "Office space location support",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-29-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-29-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-29-var-3",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "preference": null
+        },
+        {
+          "id": "room-29-var-4",
+          "width": 2.7,
+          "depth": 4.4,
+          "area": 11.9,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-30",
+      "name": "Office team leaders",
+      "quantity": 3,
+      "variants": [
+        {
+          "id": "room-30-var-1",
+          "width": 3.2,
+          "depth": 2.5,
+          "area": 8,
+          "preference": null
+        },
+        {
+          "id": "room-30-var-2",
+          "width": 2.8,
+          "depth": 2.9,
+          "area": 8.1,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-31",
+      "name": "Home care team office",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-31-var-1",
+          "width": 3,
+          "depth": 5,
+          "area": 15,
+          "preference": null
+        },
+        {
+          "id": "room-31-var-2",
+          "width": 2.7,
+          "depth": 5.6,
+          "area": 15.1,
+          "preference": null
+        },
+        {
+          "id": "room-31-var-3",
+          "width": 3.6,
+          "depth": 4.2,
+          "area": 15.1,
+          "preference": null
+        },
+        {
+          "id": "room-31-var-4",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-32",
+      "name": "Flex offices e.g. Ciz, scheduler, coach, etc.",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-32-var-1",
+          "width": 5,
+          "depth": 5,
+          "area": 25,
+          "preference": null
+        },
+        {
+          "id": "room-32-var-2",
+          "width": 3.5,
+          "depth": 7.1,
+          "area": 24.8,
+          "preference": null
+        },
+        {
+          "id": "room-32-var-3",
+          "width": 4,
+          "depth": 6.3,
+          "area": 25.2,
+          "preference": null
+        },
+        {
+          "id": "room-32-var-4",
+          "width": 4.8,
+          "depth": 5.2,
+          "area": 25,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-33",
+      "name": "Meeting room 1",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-33-var-1",
+          "width": 4.5,
+          "depth": 6.7,
+          "area": 30.2,
+          "preference": null
+        },
+        {
+          "id": "room-33-var-2",
+          "width": 3.8,
+          "depth": 9.2,
+          "area": 35,
+          "preference": null
+        },
+        {
+          "id": "room-33-var-3",
+          "width": 6.7,
+          "depth": 4.5,
+          "area": 30.2,
+          "preference": null
+        },
+        {
+          "id": "room-33-var-4",
+          "width": 5.5,
+          "depth": 5.5,
+          "area": 30.3,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-34",
+      "name": "Meeting room 2",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-34-var-1",
+          "width": 5,
+          "depth": 6,
+          "area": 30,
+          "preference": null
+        },
+        {
+          "id": "room-34-var-2",
+          "width": 4,
+          "depth": 7.5,
+          "area": 30,
+          "preference": null
+        },
+        {
+          "id": "room-34-var-3",
+          "width": 3.8,
+          "depth": 7.9,
+          "area": 30,
+          "preference": null
+        },
+        {
+          "id": "room-34-var-4",
+          "width": 4.5,
+          "depth": 6.7,
+          "area": 30.2,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-35",
+      "name": "Office / workplace caretaker",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-35-var-1",
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "preference": null
+        },
+        {
+          "id": "room-35-var-2",
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "preference": null
+        },
+        {
+          "id": "room-35-var-3",
+          "width": 4.5,
+          "depth": 4.5,
+          "area": 20.3,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-36",
+      "name": "Physiotherapy consultation/treatment room",
+      "quantity": 5,
+      "variants": [
+        {
+          "id": "room-36-var-1",
+          "width": 3,
+          "depth": 5,
+          "area": 15,
+          "preference": null
+        },
+        {
+          "id": "room-36-var-2",
+          "width": 2.7,
+          "depth": 5.6,
+          "area": 15.1,
+          "preference": null
+        },
+        {
+          "id": "room-36-var-3",
+          "width": 3.6,
+          "depth": 4.2,
+          "area": 15.1,
+          "preference": null
+        },
+        {
+          "id": "room-36-var-4",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-37",
+      "name": "Treatment room/exercise room for physiotherapy for children/low-stimulus",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-37-var-1",
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "preference": null
+        },
+        {
+          "id": "room-37-var-2",
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "preference": null
+        },
+        {
+          "id": "room-37-var-3",
+          "width": 3.1,
+          "depth": 6.5,
+          "area": 20.2,
+          "preference": null
+        },
+        {
+          "id": "room-37-var-4",
+          "width": 4.5,
+          "depth": 4.5,
+          "area": 20.3,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-38",
+      "name": "Speech therapy / dietetics office",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-38-var-1",
+          "width": 3,
+          "depth": 5,
+          "area": 15,
+          "preference": null
+        },
+        {
+          "id": "room-38-var-2",
+          "width": 2.7,
+          "depth": 5.6,
+          "area": 15.1,
+          "preference": null
+        },
+        {
+          "id": "room-38-var-3",
+          "width": 3.6,
+          "depth": 4.2,
+          "area": 15.1,
+          "preference": null
+        },
+        {
+          "id": "room-38-var-4",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-39",
+      "name": "Doctors' offices",
+      "quantity": 3,
+      "variants": [
+        {
+          "id": "room-39-var-1",
+          "width": 3,
+          "depth": 4,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-39-var-2",
+          "width": 2.4,
+          "depth": 5,
+          "area": 12,
+          "preference": null
+        },
+        {
+          "id": "room-39-var-3",
+          "width": 3.5,
+          "depth": 3.4,
+          "area": 11.9,
+          "preference": null
+        },
+        {
+          "id": "room-39-var-4",
+          "width": 3.6,
+          "depth": 3.3,
+          "area": 11.9,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-40",
+      "name": "Office transfer nurse",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-40-var-1",
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "preference": null
+        },
+        {
+          "id": "room-40-var-2",
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "preference": null
+        },
+        {
+          "id": "room-40-var-3",
+          "width": 3.1,
+          "depth": 6.5,
+          "area": 20.2,
+          "preference": null
+        },
+        {
+          "id": "room-40-var-4",
+          "width": 4.5,
+          "depth": 4.5,
+          "area": 20.3,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-41",
+      "name": "Physiotherapy and occupational therapy office including kitchen",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-41-var-1",
+          "width": 5,
+          "depth": 5,
+          "area": 25,
+          "preference": null
+        },
+        {
+          "id": "room-41-var-2",
+          "width": 6,
+          "depth": 4.2,
+          "area": 25.2,
+          "preference": null
+        },
+        {
+          "id": "room-41-var-3",
+          "width": 3.5,
+          "depth": 7.1,
+          "area": 24.8,
+          "preference": null
+        },
+        {
+          "id": "room-41-var-4",
+          "width": 4,
+          "depth": 6.3,
+          "area": 25.2,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-42",
+      "name": "Occupational therapy office",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-42-var-1",
+          "width": 3,
+          "depth": 5,
+          "area": 15,
+          "preference": null
+        },
+        {
+          "id": "room-42-var-2",
+          "width": 2.7,
+          "depth": 6,
+          "area": 16.2,
+          "preference": null
+        },
+        {
+          "id": "room-42-var-3",
+          "width": 4.5,
+          "depth": 3.3,
+          "area": 14.9,
+          "preference": null
+        },
+        {
+          "id": "room-42-var-4",
+          "width": 3.5,
+          "depth": 4.3,
+          "area": 15,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-43",
+      "name": "Exercise room 2 physiotherapy",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-43-var-1",
+          "width": 8,
+          "depth": 10,
+          "area": 80,
+          "preference": null
+        },
+        {
+          "id": "room-43-var-2",
+          "width": 6.3,
+          "depth": 12.7,
+          "area": 80,
+          "preference": null
+        },
+        {
+          "id": "room-43-var-3",
+          "width": 10,
+          "depth": 8,
+          "area": 80,
+          "preference": null
+        },
+        {
+          "id": "room-43-var-4",
+          "width": 7.5,
+          "depth": 10.7,
+          "area": 80.3,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-44",
+      "name": "Storage Physio",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-44-var-1",
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "preference": null
+        },
+        {
+          "id": "room-44-var-2",
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "preference": null
+        },
+        {
+          "id": "room-44-var-3",
+          "width": 3.1,
+          "depth": 6.5,
+          "area": 20.2,
+          "preference": null
+        },
+        {
+          "id": "room-44-var-4",
+          "width": 4.5,
+          "depth": 4.5,
+          "area": 20.3,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-45",
+      "name": "Charging electric wheelchairs",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-45-var-1",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "preference": null
+        },
+        {
+          "id": "room-45-var-fallback-4igw8oinb",
+          "width": 2.4,
+          "depth": 2.5,
+          "area": 6,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-46",
+      "name": "MIVA shower",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-46-var-1",
+          "width": 2.4,
+          "depth": 3,
+          "area": 7.2,
+          "preference": null
+        },
+        {
+          "id": "room-46-var-fallback-c38mymcaw",
+          "width": 2.6,
+          "depth": 2.7,
+          "area": 7,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-47",
+      "name": "Shower",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-47-var-1",
+          "width": 1.7,
+          "depth": 1.7,
+          "area": 2.9,
+          "preference": null
+        },
+        {
+          "id": "room-47-var-2",
+          "width": 1.9,
+          "depth": 1.6,
+          "area": 3,
+          "preference": null
+        },
+        {
+          "id": "room-47-var-3",
+          "width": 1.5,
+          "depth": 1.9,
+          "area": 2.8,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-48",
+      "name": "Waiting/general",
+      "quantity": 1,
+      "variants": [
+        {
+          "id": "room-48-var-1",
+          "width": 6.6,
+          "depth": 10.6,
+          "area": 70,
+          "preference": null
+        },
+        {
+          "id": "room-48-var-2",
+          "width": 8.5,
+          "depth": 8.2,
+          "area": 69.7,
+          "preference": null
+        },
+        {
+          "id": "room-48-var-3",
+          "width": 5.9,
+          "depth": 11.9,
+          "area": 70.2,
+          "preference": null
+        },
+        {
+          "id": "room-48-var-4",
+          "width": 7.3,
+          "depth": 9.6,
+          "area": 70.1,
+          "preference": null
+        }
+      ]
+    },
+    {
+      "id": "room-49",
+      "name": "Workrooms / open-plan offices",
+      "quantity": 2,
+      "variants": [
+        {
+          "id": "room-49-var-1",
+          "width": 5,
+          "depth": 6,
+          "area": 30,
+          "preference": null
+        },
+        {
+          "id": "room-49-var-2",
+          "width": 6,
+          "depth": 5,
+          "area": 30,
+          "preference": null
+        },
+        {
+          "id": "room-49-var-3",
+          "width": 3.8,
+          "depth": 7.9,
+          "area": 30,
+          "preference": null
+        },
+        {
+          "id": "room-49-var-4",
+          "width": 4.5,
+          "depth": 6.7,
+          "area": 30.2,
+          "preference": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+.zone-variant-leaf {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 4px;
+  margin: 2px 0;
+}
+
+.zone-variant-leaf:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.zone-variant-leaf.selected {
+  background-color: rgba(74, 144, 226, 0.3);
+}
+
+.zone-variant-leaf.locked {
+  background-color: rgba(126, 211, 33, 0.2);
+}
+
+.zone-variant-leaf.hovered {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.variant-status {
+  width: 16px;
+  margin-right: 8px;
+  font-size: 12px;
+  color: #7ED321;
+}
+
+.zone-variant-leaf:not(.locked) .variant-status {
+  color: #999;
+}
+
+.variant-info {
+  flex: 1;
+}
+
+.variant-name {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.variant-details {
+  font-size: 11px;
+  color: #999;
+  margin-top: 2px;
+}

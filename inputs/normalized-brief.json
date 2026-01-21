@@ -1,0 +1,1234 @@
+{
+  "rooms": [
+    {
+      "id": "room-1",
+      "name": "Living/bedroom 1-bed incl. bathroom",
+      "area_target": 30,
+      "area_min": 24,
+      "area_max": 36,
+      "width_range": [
+        3.8,
+        13.7
+      ],
+      "depth_range": [
+        3.8,
+        13.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "client",
+      "quantity": 80,
+      "notes": "Each living group can be flexibly configured with regard to the number of rooms. Each living group has its own front door.",
+      "variants": []
+    },
+    {
+      "id": "room-2",
+      "name": "Shared living room (relaxation + dining incl. kitchen)",
+      "area_target": 65,
+      "area_min": 52,
+      "area_max": 78,
+      "width_range": [
+        5.6,
+        20.2
+      ],
+      "depth_range": [
+        5.6,
+        20.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "client",
+      "quantity": 8,
+      "notes": "Assuming +/- 9m² per resident of the residential group",
+      "variants": []
+    },
+    {
+      "id": "room-3",
+      "name": "Family/relaxation room",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "client",
+      "quantity": 8,
+      "notes": "Necessary due to the large number of residents per group",
+      "variants": []
+    },
+    {
+      "id": "room-4",
+      "name": "Storage per residential group",
+      "area_target": 6,
+      "area_min": 4.8,
+      "area_max": 7.2,
+      "width_range": [
+        2.4,
+        6.1
+      ],
+      "depth_range": [
+        2.4,
+        6.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "client",
+      "quantity": 8,
+      "notes": "A storage room within the residential group",
+      "variants": []
+    },
+    {
+      "id": "room-5",
+      "name": "Staff restroom",
+      "area_target": 5,
+      "area_min": 4,
+      "area_max": 6,
+      "width_range": [
+        1.6,
+        5.6
+      ],
+      "depth_range": [
+        1.6,
+        5.6
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "client",
+      "quantity": 8,
+      "notes": "A staff toilet within the residential group",
+      "variants": []
+    },
+    {
+      "id": "room-6",
+      "name": "Reception area",
+      "area_target": 10,
+      "area_min": 8,
+      "area_max": 12,
+      "width_range": [
+        2.4,
+        7.9
+      ],
+      "depth_range": [
+        2.4,
+        7.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Equipped with a counter and one workstation. Adjacent to the meeting room.",
+      "variants": []
+    },
+    {
+      "id": "room-7",
+      "name": "Waiting room",
+      "area_target": 10,
+      "area_min": 8,
+      "area_max": 12,
+      "width_range": [
+        2.4,
+        7.9
+      ],
+      "depth_range": [
+        2.4,
+        7.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-8",
+      "name": "Central portioning area",
+      "area_target": 20,
+      "area_min": 16,
+      "area_max": 24,
+      "width_range": [
+        3.1,
+        11.2
+      ],
+      "depth_range": [
+        3.1,
+        11.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-9",
+      "name": "Utility room/supply room",
+      "area_target": 16,
+      "area_min": 12.8,
+      "area_max": 19.2,
+      "width_range": [
+        2.8,
+        10
+      ],
+      "depth_range": [
+        2.8,
+        10
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-10",
+      "name": "Receiving / Warehouse equipped with freezers",
+      "area_target": 10,
+      "area_min": 8,
+      "area_max": 12,
+      "width_range": [
+        2.4,
+        7.9
+      ],
+      "depth_range": [
+        2.4,
+        7.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-11",
+      "name": "Receiving storage of refrigerated food",
+      "area_target": 10,
+      "area_min": 8,
+      "area_max": 12,
+      "width_range": [
+        2.4,
+        7.9
+      ],
+      "depth_range": [
+        2.4,
+        7.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Intended for the preparation of meals for all residents",
+      "variants": []
+    },
+    {
+      "id": "room-12",
+      "name": "Preparation kitchen with dishwasher",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Meals are brought from here to the kitchens of the residential groups",
+      "variants": []
+    },
+    {
+      "id": "room-13",
+      "name": "Meeting room / relaxation room",
+      "area_target": 80,
+      "area_min": 64,
+      "area_max": 96,
+      "width_range": [
+        6.3,
+        22.4
+      ],
+      "depth_range": [
+        6.3,
+        22.4
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Meeting room for visitors and clients equipped with a kitchenette - coffee - etc.",
+      "variants": []
+    },
+    {
+      "id": "room-14",
+      "name": "Locker/wardrobe area for staff",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "A locker/wardrobe area on every floor",
+      "variants": []
+    },
+    {
+      "id": "room-15",
+      "name": "Sink room / storage / dirty linen",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "Centrally located per floor",
+      "variants": []
+    },
+    {
+      "id": "room-16",
+      "name": "Medicine room incl. storage 2x medicine cart",
+      "area_target": 6,
+      "area_min": 4.8,
+      "area_max": 7.2,
+      "width_range": [
+        2.4,
+        6.1
+      ],
+      "depth_range": [
+        2.4,
+        6.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 4,
+      "notes": "Centrally located per 2 residential groups",
+      "variants": []
+    },
+    {
+      "id": "room-17",
+      "name": "Medicine room storage central",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Accessible by pharmacist via access provision",
+      "variants": []
+    },
+    {
+      "id": "room-18",
+      "name": "Supply room",
+      "area_target": 10,
+      "area_min": 8,
+      "area_max": 12,
+      "width_range": [
+        2.4,
+        7.9
+      ],
+      "depth_range": [
+        2.4,
+        7.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-19",
+      "name": "Clean workspace / sterile storage / nursing supplies",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "Centrally located per floor",
+      "variants": []
+    },
+    {
+      "id": "room-20",
+      "name": "Storage of non-sterile disposables",
+      "area_target": 2,
+      "area_min": 1.6,
+      "area_max": 2.4,
+      "width_range": [
+        1,
+        3.5
+      ],
+      "depth_range": [
+        1,
+        3.5
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-21",
+      "name": "Storage of clean linen",
+      "area_target": 6,
+      "area_min": 4.8,
+      "area_max": 7.2,
+      "width_range": [
+        2.4,
+        6.1
+      ],
+      "depth_range": [
+        2.4,
+        6.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-22",
+      "name": "Miva toilet visitors",
+      "area_target": 5,
+      "area_min": 4,
+      "area_max": 6,
+      "width_range": [
+        1.6,
+        5.6
+      ],
+      "depth_range": [
+        1.6,
+        5.6
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-23",
+      "name": "Toilet visitors",
+      "area_target": 5,
+      "area_min": 4,
+      "area_max": 6,
+      "width_range": [
+        1.6,
+        5.6
+      ],
+      "depth_range": [
+        1.6,
+        5.6
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-24",
+      "name": "Short-term waste space",
+      "area_target": 2,
+      "area_min": 1.6,
+      "area_max": 2.4,
+      "width_range": [
+        1,
+        3.5
+      ],
+      "depth_range": [
+        1,
+        3.5
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "1x per floor",
+      "variants": []
+    },
+    {
+      "id": "room-25",
+      "name": "Charging station for electric wheelchairs",
+      "area_target": 4,
+      "area_min": 3.2,
+      "area_max": 4.8,
+      "width_range": [
+        1.5,
+        5
+      ],
+      "depth_range": [
+        1.5,
+        5
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 2,
+      "notes": "1x per floor",
+      "variants": []
+    },
+    {
+      "id": "room-26",
+      "name": "Patch cabinet space",
+      "area_target": 7,
+      "area_min": 5.6,
+      "area_max": 8.4,
+      "width_range": [
+        2.4,
+        6.6
+      ],
+      "depth_range": [
+        2.4,
+        6.6
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 1,
+      "notes": "Expected to need one patch cabinet in the center of the building. Distance to component: max. 90m.",
+      "variants": []
+    },
+    {
+      "id": "room-27",
+      "name": "Technical rooms such as meter cupboards, technology, hydrophore, etc.",
+      "area_target": 8,
+      "area_min": 6.4,
+      "area_max": 9.6,
+      "width_range": [
+        2.4,
+        7.1
+      ],
+      "depth_range": [
+        2.4,
+        7.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "general",
+      "quantity": 3,
+      "notes": "1x per floor | m² is an assumption",
+      "variants": []
+    },
+    {
+      "id": "room-28",
+      "name": "Office manager care & business operations",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-29",
+      "name": "Office space location support",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "Adjacent to reception area (2x workstations)",
+      "variants": []
+    },
+    {
+      "id": "room-30",
+      "name": "Office team leaders",
+      "area_target": 8,
+      "area_min": 6.4,
+      "area_max": 9.6,
+      "width_range": [
+        2.4,
+        7.1
+      ],
+      "depth_range": [
+        2.4,
+        7.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 3,
+      "notes": "Centrally located per floor",
+      "variants": []
+    },
+    {
+      "id": "room-31",
+      "name": "Home care team office",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-32",
+      "name": "Flex offices e.g. Ciz, scheduler, coach, etc.",
+      "area_target": 25,
+      "area_min": 20,
+      "area_max": 30,
+      "width_range": [
+        3.5,
+        12.5
+      ],
+      "depth_range": [
+        3.5,
+        12.5
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-33",
+      "name": "Meeting room 1",
+      "area_target": 30,
+      "area_min": 24,
+      "area_max": 36,
+      "width_range": [
+        3.8,
+        13.7
+      ],
+      "depth_range": [
+        3.8,
+        13.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "Our advice remains to provide a sliding wall.",
+      "variants": []
+    },
+    {
+      "id": "room-34",
+      "name": "Meeting room 2",
+      "area_target": 30,
+      "area_min": 24,
+      "area_max": 36,
+      "width_range": [
+        3.8,
+        13.7
+      ],
+      "depth_range": [
+        3.8,
+        13.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-35",
+      "name": "Office / workplace caretaker",
+      "area_target": 20,
+      "area_min": 16,
+      "area_max": 24,
+      "width_range": [
+        3.1,
+        11.2
+      ],
+      "depth_range": [
+        3.1,
+        11.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-36",
+      "name": "Physiotherapy consultation/treatment room",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 5,
+      "notes": "This is a combination of care and cure; efficiency must be considered. 1. The space must be connected to the exercise room.",
+      "variants": []
+    },
+    {
+      "id": "room-37",
+      "name": "Treatment room/exercise room for physiotherapy for children/low-stimulus",
+      "area_target": 20,
+      "area_min": 16,
+      "area_max": 24,
+      "width_range": [
+        3.1,
+        11.2
+      ],
+      "depth_range": [
+        3.1,
+        11.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-38",
+      "name": "Speech therapy / dietetics office",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "It needs a height-adjustable table, three chairs, and a cabinet. Sufficient space for a wheelchair.",
+      "variants": []
+    },
+    {
+      "id": "room-39",
+      "name": "Doctors' offices",
+      "area_target": 12,
+      "area_min": 9.6,
+      "area_max": 14.4,
+      "width_range": [
+        2.4,
+        8.7
+      ],
+      "depth_range": [
+        2.4,
+        8.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 3,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-40",
+      "name": "Office transfer nurse",
+      "area_target": 20,
+      "area_min": 16,
+      "area_max": 24,
+      "width_range": [
+        3.1,
+        11.2
+      ],
+      "depth_range": [
+        3.1,
+        11.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-41",
+      "name": "Physiotherapy and occupational therapy office including kitchen",
+      "area_target": 25,
+      "area_min": 20,
+      "area_max": 30,
+      "width_range": [
+        3.5,
+        12.5
+      ],
+      "depth_range": [
+        3.5,
+        12.5
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-42",
+      "name": "Occupational therapy office",
+      "area_target": 15,
+      "area_min": 12,
+      "area_max": 18,
+      "width_range": [
+        2.7,
+        9.7
+      ],
+      "depth_range": [
+        2.7,
+        9.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "It needs a height-adjustable table, three chairs, and a cabinet. Sufficient space for a wheelchair.",
+      "variants": []
+    },
+    {
+      "id": "room-43",
+      "name": "Exercise room 2 physiotherapy",
+      "area_target": 80,
+      "area_min": 64,
+      "area_max": 96,
+      "width_range": [
+        6.3,
+        22.4
+      ],
+      "depth_range": [
+        6.3,
+        22.4
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "Storage accessible from the practice room",
+      "variants": []
+    },
+    {
+      "id": "room-44",
+      "name": "Storage Physio",
+      "area_target": 20,
+      "area_min": 16,
+      "area_max": 24,
+      "width_range": [
+        3.1,
+        11.2
+      ],
+      "depth_range": [
+        3.1,
+        11.2
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-45",
+      "name": "Charging electric wheelchairs",
+      "area_target": 6,
+      "area_min": 4.8,
+      "area_max": 7.2,
+      "width_range": [
+        2.4,
+        6.1
+      ],
+      "depth_range": [
+        2.4,
+        6.1
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "1x per layer",
+      "variants": []
+    },
+    {
+      "id": "room-46",
+      "name": "MIVA shower",
+      "area_target": 7,
+      "area_min": 5.6,
+      "area_max": 8.4,
+      "width_range": [
+        2.4,
+        6.6
+      ],
+      "depth_range": [
+        2.4,
+        6.6
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "1 Miva and 1 normal shower.",
+      "variants": []
+    },
+    {
+      "id": "room-47",
+      "name": "Shower",
+      "area_target": 3,
+      "area_min": 2.4,
+      "area_max": 3.6,
+      "width_range": [
+        1.5,
+        4.3
+      ],
+      "depth_range": [
+        1.5,
+        4.3
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": false,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "",
+      "variants": []
+    },
+    {
+      "id": "room-48",
+      "name": "Waiting/general",
+      "area_target": 70,
+      "area_min": 56,
+      "area_max": 84,
+      "width_range": [
+        5.9,
+        20.9
+      ],
+      "depth_range": [
+        5.9,
+        20.9
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 1,
+      "notes": "Could be smaller if the meeting room (25) is nearby. Combination waiting room Recovery clinic",
+      "variants": []
+    },
+    {
+      "id": "room-49",
+      "name": "Workrooms / open-plan offices",
+      "area_target": 30,
+      "area_min": 24,
+      "area_max": 36,
+      "width_range": [
+        3.8,
+        13.7
+      ],
+      "depth_range": [
+        3.8,
+        13.7
+      ],
+      "aspect_ratio_range": [
+        0.5,
+        2.5
+      ],
+      "requires_daylight": true,
+      "requires_access": true,
+      "category": "supporting",
+      "quantity": 2,
+      "notes": "12 workstations/flexible workstations (including physiotherapy clinic)",
+      "variants": []
+    }
+  ],
+  "metadata": {
+    "parsedAt": "2026-01-20T13:05:00.401Z",
+    "totalRooms": 184,
+    "totalArea": 4257
+  }
+}

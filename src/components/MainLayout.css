@@ -1,0 +1,7 @@
+.main-layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  height: calc(100vh - 60px);
+  background: #ecf0f1;
+}

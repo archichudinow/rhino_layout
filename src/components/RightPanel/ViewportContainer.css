@@ -1,0 +1,49 @@
+.viewport-container {
+  height: 60%;
+  position: relative;
+  background: white;
+  border-bottom: 1px solid #dce0e3;
+}
+
+.viewport-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.viewport-controls {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  gap: 8px;
+  pointer-events: all;
+}
+
+.control-btn {
+  width: 36px;
+  height: 36px;
+  background: white;
+  border: 1px solid #dce0e3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.control-btn:hover {
+  background: #f8f9fa;
+  border-color: #3498db;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.control-btn:active {
+  transform: translateY(1px);
+}
